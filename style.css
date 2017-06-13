@@ -1,0 +1,71 @@
+body {
+	background-image: url("assets/images/hip-square.png");
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	margin-bottom: 80px;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.section {
+	background-color: white;
+	padding-bottom: 20px;
+	border:  1px solid #4aaaa5;
+}
+
+.aboutMe {
+	color: #4aaaa5;
+}
+
+.selfie {
+	width: 250px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+
+.aboutText {
+	color: #777777
+}
+
+.aside {
+	background-color: white;
+	text-align: center;
+	border:  1px solid #4aaaa5;
+}
+
+.socialIcon {
+	width: 75px;
+	height: auto;
+	opacity: 1;
+	margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  padding-top: 24px;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  border-top: 4px solid #4aaaa5;
+}
+
+/* hover effects */
+
+.socialIcon:hover {
+	opacity: .5;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: #9ee2e0;
+}
