@@ -69,3 +69,16 @@ body {
 .navbar-default .navbar-brand:hover {
     background-color: #9ee2e0;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 640px) {
+	
+	.footer {
+  position: static;
+
+}
+
+body {
+	margin-bottom: 0px;
+}
